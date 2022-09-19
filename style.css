@@ -70,3 +70,7 @@ ul li.checked {
   color: #fff;
   text-decoration: line-through;
 }
+
+ul li:hover {
+  background: rgb(226, 98, 98);
+}
