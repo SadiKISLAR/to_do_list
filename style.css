@@ -55,7 +55,7 @@ ul li {
 ul li.checked::before {
   content: '';
   position: absolute;
-  border-color: #fff;
+  border-color: rgb(230, 6, 6);
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 10px;
@@ -63,4 +63,10 @@ ul li.checked::before {
   transform: rotate(45deg);
   height: 15px;
   width: 7px;
+}
+
+ul li.checked {
+  background: rgb(145, 11, 11);
+  color: #fff;
+  text-decoration: line-through;
 }
