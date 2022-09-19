@@ -22,3 +22,19 @@ button {
     width: 20%;
     height: 2.2rem;
 }
+ul {
+    width: 75%;
+    justify-content: center;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: black;
+  color: aliceblue;
+  font-size: 18px;
+  transition: 0.2s;
